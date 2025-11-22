@@ -1,0 +1,133 @@
+/* BASIC RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #f8f7f3;
+  color: #2c2c2c;
+}
+
+/* NAVBAR */
+.navbar {
+  width: 100%;
+  padding: 20px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 35px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #1f1f1f;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  color: #5f705e;
+}
+
+/* HERO SECTION */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 140px 60px 60px;
+  min-height: 100vh;
+}
+
+.hero-text {
+  width: 50%;
+}
+
+.welcome {
+  color: #777;
+  letter-spacing: 1px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.hero-text h1 {
+  font-size: 65px;
+  line-height: 1.1;
+  font-weight: 700;
+}
+
+.hero-text h1 span {
+  background: linear-gradient(90deg, #606b5f, #939f8e);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+.subtitle {
+  margin-top: 25px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #6a6a6a;
+  line-height: 1.5;
+}
+
+.description {
+  margin-top: 25px;
+  font-size: 16px;
+  color: #5a5a5a;
+  max-width: 650px;
+  line-height: 1.7;
+}
+
+/* IMAGE */
+.hero-img img {
+  width: 380px;
+  height: 380px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 8px solid #ffffff;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .hero {
+    flex-direction: column-reverse;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .hero-text {
+    width: 100%;
+  }
+
+  .hero-img img {
+    width: 280px;
+    height: 280px;
+  }
+
+  .navbar {
+    padding: 20px;
+  }
+
+  .nav-links {
+    display: none; /* you can add mobile menu if you want */
+  }
+}
