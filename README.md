@@ -1,52 +1,46 @@
-🎨 Trisha Kundu – Portfolio Website
-
+## 💼 Trisha Kundu – Portfolio Website
 Welcome to my personal portfolio! This website represents my work, learning journey, and my passion for building clean, meaningful, and user-focused digital experiences. It gives a clear idea of who I am and what I do.
 
-🚀 Live Demo
 
-🔗 Portfolio Website:
-https://trishakundu04.github.io/My-Portfolio/
+## 🚀 Live Demo
+[My Portfolio](https://trishakundu04.github.io/My-Portfolio/)  
 
-🧰 Tech Stack
-Frontend
 
-HTML5 – Semantic structure
 
-CSS3 – Custom styling, layout design, responsive UI
 
-JavaScript – Dynamic behavior & UI interactions
+## 🧰 Tech Stack
 
-Font Awesome – Icons
+### 🌐 Frontend
+- **HTML5** – Semantic markup and structure
+- **CSS3** – Custom styles, Flexbox & Grid layout, animations,responsive UI
+- **JavaScript (Vanilla)** –Dynamic behavior & UI interactions
+- **Font Awesome** – Icons
+- **Formspree// Google Sheets** – Contact form handling
 
-Formspree / Google Sheets – Contact form handling
+---
 
-Enhancements
+## Enhancement
+- **Smooth scrolling**
+- **Custom animations & transitions**
+- **Mobile-first responsive design**
+- **Light UI effects**
 
-Smooth scrolling
+----
 
-Custom animations & transitions
+## ✨ Key Features
+- **🎭 Well-structured home, skills, and about section**
+- **👩‍💻 Clean and readable codebase**
+- **🛠️ Interactive project cards**+
+- **📄 Resume download button**
+- **📱 Fully responsive layout**
+- **📬 Working contact form with validation**
+- **🎨 Minimal and aesthetic UI theme**
 
-Mobile-first responsive design
+- ---
 
-Light UI effects
+## 📁 Folder Structure
 
-✨ Key Features
-
-🎭 Well-structured home, skills, and about section
-
-👩‍💻 Clean and readable codebase
-
-🛠️ Interactive project cards
-
-📄 Resume download button
-
-📱 Fully responsive layout
-
-📬 Working contact form with validation
-
-🎨 Minimal and aesthetic UI theme
-
-📁 Project Structure
+```bash
 /
 ├── index.html
 ├── styles/
@@ -59,25 +53,32 @@ Light UI effects
 ├── TrishaKundu_Resume.pdf
 └── README.md
 
-🚀 Run Locally
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
+```
 
+## ✅ How to Use / Run Locally
+1. Clone this repository : 
+   
+   git clone https://github.com/trishakundu04/My-Portfolio.git
 
-Open index.html in your browser.
+    cd Portfolio
+
+Open index.html in your browser
 
 Or deploy using GitHub Pages / Netlify / Vercel
+---
 
-📬 Contact Me
-
-✉️ Email: kundutri04@gmail.com
-
-💼 LinkedIn:Trisha Kundu
-
-🐙 GitHub: trishakundu04
-
+## 📬 Contact Me
+If you'd like to connect, feel free to reach out via:
+- ✉️ Email: [kundutri04@gmail.com](mailto:kundutri04@gmail.com)
+- 🐙 GitHub: [@trishakundu04](https://github.com/trishakundu04)
+---
 🪪 License
+This project is open source and free to use under the MIT License.
+---
+Built with ❤️ and curiosity by Trisha Kundu
 
-This project is open-source under the MIT License.
 
-Built with ❤️ & curiosity by Trisha Kundu 
+
+
+
+
